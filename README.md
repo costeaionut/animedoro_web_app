@@ -5,7 +5,9 @@
 * activate the virtual environment
 
 ```console
+$virtualenv venv
 $source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 * run the frontend development server

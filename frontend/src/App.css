@@ -1,62 +1,59 @@
-.App-content {
+ .Navbar-content { 
  
-  background-color: #db524d;
-  padding: 0px 12px;
-  max-width: 620px;
+  max-width: 700px;
   margin: auto;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+.Navbar-ceva{
+  background-color: #C3E2B6;
 }
 .Cronometru{
-  height: 500px;
+  height: auto;
   text-align:center;
+  background-color:#A1D28B ;
 }
-.App{
-  background-color: #db524d;
-}
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
   display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 4px;
-    cursor: pointer;
-    opacity: 0.9;
-    background: none rgba(255, 255, 255, 0.2);
-    box-shadow: none;
-    margin-left: 10px;
-    font-size: 13px;
-    padding: 8px 12px;
-    min-width: 70px;
-    border: none;
-    color: white !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #A1D28B;
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px 12px;
+  min-width: 90px;
+  height: 50px;
+  border: none;
+  color: white !important;
 }
+
+
 .navbar .navbar-expand .navbar-light{
   justify-content: center;
+  background-color: #C3E2B6;
+ 
+
 }
+
 .navbar  .navbar-brand{
 
   margin-right: 10px; 
-  background: url("./images/clock.png") , #db524d ;
-  width: 40px;
+  background: url("./images/Animedoro.png") , #C3E2B6 ;
+  width: 200px;
   height: 40px;
-  background-size: 40px 40px;
+  background-size: 200px 40px;
   background-repeat:no-repeat
 }
 
-.navbar .navbar-brand::after{
-  
-  color: white;
-  padding-left: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'ArialRounded';
-  content: "Animedoro";
-    
-}
 .navbar-expand .navbar-collapse{
-  padding-left: 250px;
+  padding-left: 190px;
+  background-color: #C3E2B6;
+
 }
 .App-logo {
   height: 40vmin;
@@ -70,7 +67,7 @@
 }
 
 .App-header {
-  background-color: #db524d;
+  background-color: #A1D28B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
